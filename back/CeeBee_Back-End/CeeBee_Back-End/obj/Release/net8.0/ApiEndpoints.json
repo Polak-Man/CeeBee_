@@ -1,0 +1,43 @@
+[
+  {
+    "ContainingType": "CeeBee.Controllers.CeeBeeController",
+    "Method": "PostData",
+    "RelativePath": "api/CeeBee",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "SelectedNames",
+        "Type": "System.Collections.Generic.List\u00601[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "ShowPseudo",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "TextInput",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DurationSec",
+        "Type": "System.Single",
+        "IsRequired": false
+      },
+      {
+        "Name": "DurationMs",
+        "Type": "System.Single",
+        "IsRequired": false
+      },
+      {
+        "Name": "File",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
